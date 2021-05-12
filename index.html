@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        #greeting {
+            text-align: center;
+            margin: 0;
+            font-size: 72px;
+            font-weight: bold;
+        }
+
+        #title {
+            text-align: center;
+            margin: 0;
+            font-size: 36px;
+        }
+    </style>
+</head>
+
+<body>
+<div class="grid">
+    <div>
+        <nav style="float:left;">
+            <ul class="horizontal">
+                <li><a href="" class="accented">Home</a></li>
+                <li><a href="resume.html">Resume</a></li>
+            </ul>
+        </nav>
+        <ul class="horizontal" style="float:right;">
+            <li><a href="https://www.linkedin.com/in/josephh2o/" target="_blank">LinkedIn</a></li>
+            <li><a href="https://www.instagram.com/joseph.h2o/" target="_blank">Instagram</a></li>
+        </ul>
+    </div>
+    <div>
+        <p id="greeting">Hello, I'm Joseph.</p>
+        <p id="title">&nbsp;<span id="changing_text"></span>&nbsp;</p>
+        <script src="index.js"></script>
+    </div>
+</div>
+</body>
+</html>
