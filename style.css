@@ -1,39 +1,41 @@
 :root {
-  --black0: #212425;
-  --lightgray0: #D9D9D6;
+    --white250: FAFAFA
+    --grey0: 86868B
+
+    --grey1:
+    --grey2:
+    --grey3:
+    --grey4:
+
+
   --lightgray1: #C8C9C7;
-  --color-secondary0: #BEE3DB;
-  --color-secondary1: #89B0AE;
-  --color-accent: #99cccc;
+  --color-accent: #3C95F9;
+  --color-accent2: #0066CC;
 }
 
 // Make selected text
 ::selection {
   background: var(--color-accent);
-  color: var(--black0);
+  color: black;
 }
 
 body {
-  background-color: var(--black0);
-  color: white;
-  font-family: 'Open Sans', sans-serif;
+  background-color: white;
+  color: black;
+  font-family: Helvetica Neue, Helvetica, sans-serif; font-style: normal; font-variant: normal; font-weight: 600;
 }
 
 a {
-  color: white;
+  color: black;
   text-decoration: none;
 }
 
 a:hover {
-  color: var(--lightgray0);
+  color: var(--grey0);
 }
 
 a:active {
-  color: var(--lightgray1);
-}
-
-h2 {
-  color: var(--color-secondary0);
+  color: var(--color-accent2);
 }
 
 ul.horizontal {
@@ -51,10 +53,6 @@ ul.horizontal li {
 .grid {
   display: grid;
   grid-template-rows: auto auto;
-}
-
-.grid span {
-    text-shadow: -1px 0 0 rbga(0, 0, 0, .2);
 }
 
 .accented {
