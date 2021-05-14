@@ -4,9 +4,10 @@
   --lightgray1: #C8C9C7;
   --color-secondary0: #BEE3DB;
   --color-secondary1: #89B0AE;
-  --color-accent: #FBBA72;
+  --color-accent: #99cccc;
 }
 
+// Make selected text
 ::selection {
   background: var(--color-accent);
   color: var(--black0);
@@ -50,6 +51,10 @@ ul.horizontal li {
 .grid {
   display: grid;
   grid-template-rows: auto auto;
+}
+
+.grid span {
+    text-shadow: -1px 0 0 rbga(0, 0, 0, .2);
 }
 
 .accented {
