@@ -13,7 +13,6 @@
   --color-accent2: #0066CC;
 }
 
-// Make selected text
 ::selection {
   background: var(--color-accent);
   color: black;
@@ -48,6 +47,7 @@ ul li {
 
 ul.horizontal li {
   display: inline-block;
+  font-weight: 500;
 }
 
 .grid {
@@ -57,4 +57,14 @@ ul.horizontal li {
 
 .accented {
   color: var(--color-accent);
+}
+
+h1 {
+    padding: 0 1em;
+    font-weight: 500;
+}
+
+p {
+    padding: 0 2em;
+    font-weight: 500;
 }
