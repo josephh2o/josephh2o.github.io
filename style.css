@@ -1,8 +1,8 @@
+/* Minimal white */
 :root {
     --white250: FAFAFA;
     --grey0: 86868B;
     --color-accent: #3C95F9;
-    --color-accent2: #0066CC;
 }
 
 ::selection {
@@ -10,10 +10,20 @@
     color: black;
 }
 
-body {
-    background-color: white;
+.greeting {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 500;
     color: black;
-    font-family: Helvetica Neue, Helvetica, sans-serif; font-style: normal; font-variant: normal; font-weight: 600;
+}
+
+.main {
+    display: grid;
+    grid-template-rows: auto auto;
+}
+
+.accented {
+    color: var(--color-accent);
 }
 
 a {
@@ -26,35 +36,13 @@ a:hover {
 }
 
 a:active {
-    color: var(--color-accent2);
-}
-
-ul.horizontal {
-    padding: 0 1em;
-}
-
-ul li {
-    padding: 0 1em;
-}
-
-ul.horizontal li {
-    display: inline-block;
-    font-weight: 500;
-}
-
-.greeting {
-    text-align: center;
-    font-size: 36px;
-    font-weight: 500;
-}
-
-.main {
-    display: grid;
-    grid-template-rows: auto auto;
-}
-
-.accented {
     color: var(--color-accent);
+}
+
+body {
+    background-color: white;
+    color: black;
+    font-family: Helvetica Neue, Helvetica, sans-serif; font-style: normal; font-variant: normal; font-weight: 600;
 }
 
 footer {
@@ -71,5 +59,18 @@ h1 {
 
 p {
     padding: 0 2em;
+    font-weight: 500;
+}
+
+ul.horizontal {
+    padding: 0 1em;
+}
+
+ul li {
+    padding: 0 1em;
+}
+
+ul.horizontal li {
+    display: inline-block;
     font-weight: 500;
 }
