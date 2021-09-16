@@ -27,11 +27,11 @@
 }
 
 .profilepic {
-    border-radius: 50%
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 20%;
+    border-radius: 50%;
 }
 
 a {
