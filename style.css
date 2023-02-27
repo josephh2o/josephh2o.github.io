@@ -12,7 +12,7 @@
 
 .greeting {
     text-align: center;
-    font-size: 36px;
+    font-size: 24px;
     font-weight: 500;
     color: black;
 }
@@ -27,10 +27,11 @@
 }
 
 .avatar {
+    border-radius: 25%;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    border-radius: 50%;
+    padding: 2em
 }
 
 a {
@@ -53,20 +54,21 @@ body {
 }
 
 footer {
-    position: absolute;
     bottom: 0;
-    width 100%;
     height 1rem;
+    position: absolute;
+    width 100%;
+
 }
 
 h1 {
-    padding: 0 1em;
     font-weight: 500;
+    padding: 0 1em;
 }
 
 p {
-    padding: 0 2em;
     font-weight: 500;
+    padding: 0 2em;
 }
 
 ul.horizontal {
