@@ -15,15 +15,15 @@ function Home() {
             <div className="links-container">
                 <a href="https://www.linkedin.com/in/josephh2o" target="_blank"
                    rel="noopener noreferrer">
-                    <BiLogoLinkedinSquare aria-label="Linkedin"/>
+                    <BiLogoLinkedinSquare aria-label="Linkedin" className="links"/>
                 </a>
                 <a href="https://github.com/josephh2o" target="_blank"
                    rel="noopener noreferrer">
-                    <BiLogoGithub aria-label="Github"/>
+                    <BiLogoGithub aria-label="Github" className="links"/>
                 </a>
                 <a href="https://www.instagram.com/joseph.h2o" target="_blank"
                    rel="noopener noreferrer">
-                    <BiLogoInstagram aria-label="Instagram"/>
+                    <BiLogoInstagram aria-label="Instagram" className="links"/>
                 </a>
             </div>
         </div>

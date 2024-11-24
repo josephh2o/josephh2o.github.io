@@ -4,7 +4,6 @@ import Layout from './layout';
 import Home from './pages/home';
 import Resume from './pages/resume';
 import Ideas from './pages/ideas';
-// import 'bootstrap/dist/css/bootstrap.min.css'; // Importing Bootstrap CSS
 import './css/index.css';
 
 const App: React.FC = () => {
