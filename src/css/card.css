@@ -1,0 +1,45 @@
+.card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 1rem;
+    max-width: 33rem;
+    margin: 0 auto;
+}
+
+.card-image {
+    width: 4rem;
+    height: 4rem;
+    margin-right: 1rem;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: left;
+}
+
+.card-title {
+    font-weight: bold;
+    font-size: 1rem;
+    margin: 0;
+    color: #555;
+}
+
+.card-title:hover {
+    color: #98b4d4;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #888;
+}
+
+.card h2 {
+    margin: 0 0 1rem;
+}
+
+.card p {
+    margin: 0;
+}
