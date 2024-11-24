@@ -1,4 +1,12 @@
-import { BiLogoPython, BiLogoJava, BiLogoJavascript, BiLogoHtml5, BiLogoCss3, BiLogoReact } from "react-icons/bi";
+import {
+    BiLogoPython,
+    BiLogoJava,
+    BiLogoJavascript,
+    BiLogoHtml5,
+    BiLogoCss3,
+    BiLogoReact,
+    BiLogoGit
+} from "react-icons/bi";
 import uwLogo from '../assets/uw-logo.svg'
 import Card from '../components/card'
 import '../css/resume.css'
@@ -50,6 +58,7 @@ function Resume() {
                 <BiLogoHtml5 aria-label="HTML5"/>
                 <BiLogoCss3 aria-label="CSS3"/>
                 <BiLogoReact aria-label="React"/>
+                <BiLogoGit aria-label="Git"/>
             </div>
         </div>
     );
