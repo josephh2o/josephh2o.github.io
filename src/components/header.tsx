@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { motion } from 'motion/react';
 import '../css/header.css';
 import logo from '../assets/logo.svg';
 
@@ -7,12 +8,13 @@ const Header: React.FC = () => (
     <header className="navbar">
         <div className="navbar-brand">
             <Link to="/">
-                <img
+                <motion.img
                     alt="Logo"
                     src={logo}
                     width="40"
                     height="40"
                     className="logo"
+                    whileHover={{ scale: 1.2 }}
                 />
             </Link>
         </div>
