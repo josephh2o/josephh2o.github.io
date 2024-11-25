@@ -28,4 +28,9 @@
 .logo {
     padding: 1em;
     margin: 1em;
+    transition: transform 0.2s ease-in-out;
+}
+
+.logo:hover {
+    transform: scale(1.2);
 }
