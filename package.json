@@ -11,7 +11,7 @@
     "preview": "vite preview",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
-    "clean": "rm -rf dist"
+    "clean": "rd /s /q dist"
   },
   "dependencies": {
     "motion": "^11.11.17",
