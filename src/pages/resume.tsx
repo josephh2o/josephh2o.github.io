@@ -7,7 +7,8 @@ import {
     BiLogoReact,
     BiLogoGit
 } from "react-icons/bi";
-import uwLogo from '../assets/uw-logo.svg'
+import uwLogo from '../assets/uw_logo.svg'
+import abbottLogo from '../assets/abbott_logo.svg'
 import Card from '../components/card'
 import '../css/resume.css'
 import '../css/card.css'
@@ -25,7 +26,15 @@ function Resume() {
                   ]}
             />
             <h2>Experience</h2>
-            <Card link="https://www.pediatrics.wisc.edu/research/research-groups/pattnaik/"
+            <Card image={abbottLogo}
+                  link="https://www.abbott.com/"
+                  title="Abbott - Technical Service Engineer"
+                  content={[
+                      "Providing technical support for cardiac rhythm management devices, including pacemakers and defibrillators, to healthcare professionals and patients.",
+                  ]}
+            />
+            <Card image={uwLogo}
+                  link="https://www.pediatrics.wisc.edu/research/research-groups/pattnaik/"
                   title="Pattnaik Lab - Research Assistant"
                   content={[
                       "Investigated the effect of anti-epileptic drugs on retinal tissue using electrophysiological techniques, including multielectrode arrays and electroretinograms, to analyze functional changes.",
