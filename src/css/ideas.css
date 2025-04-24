@@ -1,4 +1,9 @@
-.introduction::after {
+.placeholder {
+    color: #888;
+    padding: 3rem;
+}
+
+.placeholder::after {
     content: '';
     display: inline-block;
     width: 3ch;
