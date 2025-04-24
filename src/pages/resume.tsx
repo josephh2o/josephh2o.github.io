@@ -28,7 +28,7 @@ function Resume() {
             <h2>Experience</h2>
             <Card image={abbottLogo}
                   link="https://www.abbott.com/"
-                  title="Abbott - Technical Service Engineer"
+                  title="Abbott - Technical Services Engineer"
                   content={[
                       "Providing technical support for cardiac rhythm management devices, including pacemakers and defibrillators, to healthcare professionals and patients.",
                   ]}
